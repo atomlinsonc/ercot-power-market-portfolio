@@ -1,0 +1,13 @@
+{
+  "name": "ercot-power-market-portfolio",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "npm --workspace landing_page run dev",
+    "build": "npm --workspace landing_page run build",
+    "preview": "npm --workspace landing_page run preview"
+  },
+  "workspaces": [
+    "landing_page"
+  ]
+}
