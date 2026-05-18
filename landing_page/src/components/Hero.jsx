@@ -13,6 +13,7 @@ export default function Hero() {
       <div className="hero-overlay" />
       <nav className="top-nav" aria-label="Primary navigation">
         <a href="#projects">Projects</a>
+        <a href="#spread-analysis">Spreads</a>
         <a href="#blog">Blog</a>
         <a href="#roadmap">Roadmap</a>
         <a href="#contact">Contact</a>
