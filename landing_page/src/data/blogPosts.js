@@ -47,4 +47,20 @@ export const blogPosts = [
       "Turning the dashboard spread chart into a repeatable workflow for ranking ERCOT market misses by location and hour.",
     href: "#spread-analysis",
   },
+  {
+    title: "Project 3: Morning Market Brief Automation",
+    date: "June 2026",
+    category: "Technical Devlog",
+    summary:
+      "Converting dashboard outputs into a repeatable Markdown brief with price summaries, spike alerts, spreads, and items to watch.",
+    href: "#morning-brief",
+  },
+  {
+    title: "Project 4: Price Spike Event Studies",
+    date: "June 2026",
+    category: "Market Observation",
+    summary:
+      "Reviewing high-price intervals with pre-event and post-event context, DA/RT spread, and load forecast error.",
+    href: "#price-spike-events",
+  },
 ];

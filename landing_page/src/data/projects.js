@@ -24,24 +24,24 @@ export const projects = [
   },
   {
     title: "Automated Morning Market Brief",
-    status: "Upcoming",
+    status: "Active",
     description:
       "Repeatable daily report that summarizes prices, spreads, load forecast error, spike alerts, and items to watch.",
-    skills: ["Automation", "Markdown reports", "Desk workflow"],
+    skills: ["Python", "Automation", "Markdown reports", "Desk workflow"],
     links: {
-      report: "#",
-      github: "https://github.com/atomlinsonc/ercot-power-market-portfolio",
+      report: "#morning-brief",
+      github: "https://github.com/atomlinsonc/ercot-power-market-portfolio/tree/main/projects/03_automated_morning_market_brief",
     },
   },
   {
     title: "Price Spike Event Studies",
-    status: "Upcoming",
+    status: "Active",
     description:
       "Event-study workflow for identifying abnormal intervals and documenting possible drivers around high-price periods.",
-    skills: ["Event studies", "Alerts", "Market commentary"],
+    skills: ["Python", "Event studies", "Alerts", "Market commentary"],
     links: {
-      report: "#",
-      github: "https://github.com/atomlinsonc/ercot-power-market-portfolio",
+      report: "#price-spike-events",
+      github: "https://github.com/atomlinsonc/ercot-power-market-portfolio/tree/main/projects/04_price_spike_event_studies",
     },
   },
   {

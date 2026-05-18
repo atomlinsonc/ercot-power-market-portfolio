@@ -2,6 +2,8 @@ import BlogPreview from "./components/BlogPreview.jsx";
 import Contact from "./components/Contact.jsx";
 import Dashboard from "./components/Dashboard.jsx";
 import Hero from "./components/Hero.jsx";
+import MorningBrief from "./components/MorningBrief.jsx";
+import PriceSpikeEvents from "./components/PriceSpikeEvents.jsx";
 import ProjectCard from "./components/ProjectCard.jsx";
 import Roadmap from "./components/Roadmap.jsx";
 import SpreadAnalysis from "./components/SpreadAnalysis.jsx";
@@ -14,6 +16,8 @@ export default function App() {
       <Hero />
       <Dashboard />
       <SpreadAnalysis />
+      <MorningBrief />
+      <PriceSpikeEvents />
 
       <section className="section about-section" id="about">
         <div className="section-header">

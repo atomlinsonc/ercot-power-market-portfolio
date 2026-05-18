@@ -31,6 +31,26 @@ Project folder:
 
 [projects/02_da_rt_spread_analysis](projects/02_da_rt_spread_analysis/README.md)
 
+## Project 3: Automated Morning Market Brief
+
+The third project turns dashboard outputs into a repeatable Markdown morning brief. It summarizes hub and load-zone prices, price-spike intervals, DA/RT spread notes, load forecast error, and practical items to watch.
+
+The current version uses mock ERCOT-style data and keeps that limitation visible in the generated report.
+
+Project folder:
+
+[projects/03_automated_morning_market_brief](projects/03_automated_morning_market_brief/README.md)
+
+## Project 4: ERCOT Price Spike Event Studies
+
+The fourth project reviews high real-time price intervals as events. It ranks spike intervals, adds pre-event and post-event context, compares day-ahead versus real-time outcomes, and turns the result into market-observation commentary.
+
+The current version uses mock ERCOT-style data and is ready for live public ERCOT/GridStatus context fields later.
+
+Project folder:
+
+[projects/04_price_spike_event_studies](projects/04_price_spike_event_studies/README.md)
+
 ## Blog and Learning Log
 
 The portfolio includes both technical development notes and ERCOT market observations. Technical posts explain how the dashboard, data pipeline, and reporting tools are built. Market notes explain what the dashboard shows and what questions a trading desk might ask next.
