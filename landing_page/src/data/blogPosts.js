@@ -39,5 +39,12 @@ export const blogPosts = [
       "Understanding day-ahead minus real-time spreads and why differences between expectations and outcomes matter.",
     href: "#",
   },
+  {
+    title: "Project 2: DA/RT Spread Analysis",
+    date: "May 2026",
+    category: "Technical Devlog",
+    summary:
+      "Turning the dashboard spread chart into a repeatable workflow for ranking ERCOT market misses by location and hour.",
+    href: "#spread-analysis",
+  },
 ];
-
