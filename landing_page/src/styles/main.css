@@ -421,6 +421,127 @@ h1 {
   padding: 18px;
 }
 
+.spread-section {
+  width: 100%;
+  max-width: none;
+  padding: 72px max(20px, calc((100vw - 1180px) / 2));
+  background: #f7faf8;
+}
+
+.spread-shell {
+  display: grid;
+  gap: 22px;
+}
+
+.spread-section .section-header p:not(.eyebrow) {
+  max-width: 780px;
+  margin: 14px 0 0;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.spread-stat-grid,
+.spread-grid {
+  display: grid;
+  gap: 14px;
+}
+
+.spread-stat-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.spread-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.spread-stat,
+.spread-panel {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 16px 40px rgba(24, 33, 29, 0.05);
+}
+
+.spread-stat {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 12px;
+  padding: 18px;
+}
+
+.spread-stat p,
+.spread-stat span {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.spread-stat strong {
+  display: block;
+  margin: 4px 0;
+  font-size: clamp(1.25rem, 2vw, 1.65rem);
+  line-height: 1.1;
+}
+
+.spread-panel {
+  padding: 18px;
+}
+
+.spread-panel h3 {
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+
+.spread-panel p {
+  margin: 6px 0 0;
+  color: var(--muted);
+}
+
+.spread-bars {
+  display: grid;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.spread-bar-row {
+  display: grid;
+  grid-template-columns: 92px minmax(120px, 1fr) 112px;
+  gap: 12px;
+  align-items: center;
+  font-size: 0.86rem;
+}
+
+.spread-bar-row span {
+  color: var(--teal-dark);
+  font-weight: 800;
+}
+
+.spread-bar-row strong {
+  color: var(--ink);
+  font-size: 0.86rem;
+  text-align: right;
+}
+
+.spread-bar-track {
+  height: 12px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #e3ebe7;
+}
+
+.spread-bar-track i {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--amber);
+}
+
+.spread-table-panel {
+  display: grid;
+  gap: 14px;
+}
+
 .chart-header {
   display: flex;
   flex-wrap: wrap;
@@ -585,7 +706,9 @@ th {
   .dashboard-title-row,
   .dashboard-controls,
   .metric-grid,
-  .chart-grid {
+  .chart-grid,
+  .spread-stat-grid,
+  .spread-grid {
     grid-template-columns: 1fr;
   }
 }
@@ -603,5 +726,13 @@ th {
   .section {
     width: min(100% - 28px, 1180px);
     padding: 56px 0;
+  }
+
+  .spread-bar-row {
+    grid-template-columns: 1fr;
+  }
+
+  .spread-bar-row strong {
+    text-align: left;
   }
 }
