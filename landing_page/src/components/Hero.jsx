@@ -1,9 +1,8 @@
-import { BookOpen, FileText, Github, LineChart } from "lucide-react";
+import { FileText, Github, LineChart } from "lucide-react";
 
 const links = [
   { label: "View Live Dashboard", href: "#dashboard", icon: LineChart },
   { label: "View GitHub Repo", href: "https://github.com/atomlinsonc/ercot-power-market-portfolio", icon: Github },
-  { label: "Read the Blog", href: "#blog", icon: BookOpen },
   { label: "Download Resume", href: "#", icon: FileText },
 ];
 
@@ -12,12 +11,9 @@ export default function Hero() {
     <section className="hero">
       <div className="hero-overlay" />
       <nav className="top-nav" aria-label="Primary navigation">
-        <a href="#projects">Projects</a>
         <a href="#spread-analysis">Spreads</a>
         <a href="#battery-arbitrage">Storage</a>
         <a href="#market-rules">Rules</a>
-        <a href="#blog">Blog</a>
-        <a href="#roadmap">Roadmap</a>
         <a href="#contact">Contact</a>
       </nav>
       <div className="hero-content">
