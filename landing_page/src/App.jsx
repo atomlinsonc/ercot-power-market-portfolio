@@ -4,6 +4,7 @@ import Dashboard from "./components/Dashboard.jsx";
 import Hero from "./components/Hero.jsx";
 import ProjectCard from "./components/ProjectCard.jsx";
 import Roadmap from "./components/Roadmap.jsx";
+import SpreadAnalysis from "./components/SpreadAnalysis.jsx";
 import { blogPosts } from "./data/blogPosts.js";
 import { projects } from "./data/projects.js";
 
@@ -12,6 +13,7 @@ export default function App() {
     <main>
       <Hero />
       <Dashboard />
+      <SpreadAnalysis />
 
       <section className="section about-section" id="about">
         <div className="section-header">
