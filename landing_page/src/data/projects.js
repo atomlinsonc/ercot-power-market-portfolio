@@ -13,13 +13,13 @@ export const projects = [
   },
   {
     title: "Day-Ahead vs Real-Time Spread Analysis",
-    status: "Planned",
+    status: "Active",
     description:
-      "Analysis project focused on spread distributions, largest market misses, hourly patterns, and explanatory market questions.",
-    skills: ["Time series", "SQL", "Spread analysis"],
+      "Python analysis workflow for ranking ERCOT DA/RT market misses by settlement point, operating hour, and abnormal spread intervals.",
+    skills: ["Python", "pandas", "Time series", "Spread analysis"],
     links: {
-      report: "#",
-      github: "https://github.com/atomlinsonc/ercot-power-market-portfolio",
+      report: "#spread-analysis",
+      github: "https://github.com/atomlinsonc/ercot-power-market-portfolio/tree/main/projects/02_da_rt_spread_analysis",
     },
   },
   {
