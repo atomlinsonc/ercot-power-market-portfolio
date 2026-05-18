@@ -21,6 +21,16 @@ pip install -r requirements.txt
 streamlit run src/dashboard/app.py
 ```
 
+## Project 2: Day-Ahead vs Real-Time Spread Analysis
+
+The second project turns the dashboard's spread chart into a repeatable Python analysis workflow. It ranks ERCOT day-ahead versus real-time market misses by settlement point and operating hour, flags abnormal spread intervals, and translates the results into desk-style commentary.
+
+The current version uses mock ERCOT-style data and is ready for live public ERCOT/GridStatus data integration.
+
+Project folder:
+
+[projects/02_da_rt_spread_analysis](projects/02_da_rt_spread_analysis/README.md)
+
 ## Blog and Learning Log
 
 The portfolio includes both technical development notes and ERCOT market observations. Technical posts explain how the dashboard, data pipeline, and reporting tools are built. Market notes explain what the dashboard shows and what questions a trading desk might ask next.
