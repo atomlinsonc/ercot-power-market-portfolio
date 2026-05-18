@@ -8,7 +8,7 @@ export const projects = [
     links: {
       dashboard: "#",
       report: "#",
-      github: "#",
+      github: "https://github.com/atomlinsonc/ercot-power-market-portfolio/tree/main/projects/01_realtime_market_dashboard",
     },
   },
   {
@@ -19,7 +19,7 @@ export const projects = [
     skills: ["Time series", "SQL", "Spread analysis"],
     links: {
       report: "#",
-      github: "#",
+      github: "https://github.com/atomlinsonc/ercot-power-market-portfolio",
     },
   },
   {
@@ -30,7 +30,7 @@ export const projects = [
     skills: ["Automation", "Markdown reports", "Desk workflow"],
     links: {
       report: "#",
-      github: "#",
+      github: "https://github.com/atomlinsonc/ercot-power-market-portfolio",
     },
   },
   {
@@ -41,7 +41,7 @@ export const projects = [
     skills: ["Event studies", "Alerts", "Market commentary"],
     links: {
       report: "#",
-      github: "#",
+      github: "https://github.com/atomlinsonc/ercot-power-market-portfolio",
     },
   },
   {
@@ -52,7 +52,7 @@ export const projects = [
     skills: ["Optimization", "Python", "Energy storage"],
     links: {
       report: "#",
-      github: "#",
+      github: "https://github.com/atomlinsonc/ercot-power-market-portfolio",
     },
   },
   {
@@ -63,8 +63,7 @@ export const projects = [
     skills: ["Research", "Documentation", "Market rules"],
     links: {
       report: "#",
-      github: "#",
+      github: "https://github.com/atomlinsonc/ercot-power-market-portfolio",
     },
   },
 ];
-

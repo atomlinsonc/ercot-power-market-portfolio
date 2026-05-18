@@ -2,8 +2,8 @@ import { BookOpen, FileText, Github, LineChart } from "lucide-react";
 
 const links = [
   { label: "View Live Dashboard", href: "#", icon: LineChart },
-  { label: "View GitHub Repo", href: "#", icon: Github },
-  { label: "Read the Blog", href: "#", icon: BookOpen },
+  { label: "View GitHub Repo", href: "https://github.com/atomlinsonc/ercot-power-market-portfolio", icon: Github },
+  { label: "Read the Blog", href: "#blog", icon: BookOpen },
   { label: "Download Resume", href: "#", icon: FileText },
 ];
 
@@ -38,4 +38,3 @@ export default function Hero() {
     </section>
   );
 }
-

@@ -8,7 +8,7 @@ The first milestone uses realistic mock data while the project structure is prep
 
 ## Live Portfolio Site
 
-Placeholder: [Live Portfolio Site](https://example.com)
+[Live Portfolio Site](https://atomlinsonc.github.io/ercot-power-market-portfolio/)
 
 ## Project 1: ERCOT Real-Time Market Dashboard
 
@@ -67,4 +67,3 @@ Early posts clearly label the dashboard as mock-data based until live public ERC
 Power trading desks need fast, clean, repeatable tools that summarize changing market conditions. A useful analyst workflow does more than collect data: it highlights what moved, where risk may be building, and which questions deserve attention before the next market interval or desk meeting.
 
 This portfolio is built to show practical support skills: ingesting market data, cleaning time-series records, building readable dashboards, automating briefings, and communicating market observations clearly.
-
