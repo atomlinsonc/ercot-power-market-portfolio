@@ -8,7 +8,7 @@ The first milestone uses realistic mock data while the project structure is prep
 
 ## Live Portfolio Site
 
-[Live Portfolio Site](https://atomlinsonc.github.io/ercot-power-market-portfolio/)
+[Live Portfolio Site](https://ercot-power-market-portfolio.vercel.app/)
 
 ## Project 1: ERCOT Real-Time Market Dashboard
 
