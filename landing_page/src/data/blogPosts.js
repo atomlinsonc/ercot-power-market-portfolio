@@ -63,4 +63,20 @@ export const blogPosts = [
       "Reviewing high-price intervals with pre-event and post-event context, DA/RT spread, and load forecast error.",
     href: "#price-spike-events",
   },
+  {
+    title: "Project 5: Battery Arbitrage Simulator",
+    date: "July 2026",
+    category: "Technical Devlog",
+    summary:
+      "Building a transparent storage dispatch model to connect ERCOT-style prices, state of charge, gross margin, and portfolio caveats.",
+    href: "#battery-arbitrage",
+  },
+  {
+    title: "Project 6: ERCOT Market Rules Tracker",
+    date: "July 2026",
+    category: "ERCOT Learning Notes",
+    summary:
+      "Turning public NPRR research into a structured watchlist for storage, ancillary services, scarcity, RUC, and market commentary.",
+    href: "#market-rules",
+  },
 ];

@@ -1,7 +1,9 @@
+import BatteryArbitrage from "./components/BatteryArbitrage.jsx";
 import BlogPreview from "./components/BlogPreview.jsx";
 import Contact from "./components/Contact.jsx";
 import Dashboard from "./components/Dashboard.jsx";
 import Hero from "./components/Hero.jsx";
+import MarketRulesTracker from "./components/MarketRulesTracker.jsx";
 import MorningBrief from "./components/MorningBrief.jsx";
 import PriceSpikeEvents from "./components/PriceSpikeEvents.jsx";
 import ProjectCard from "./components/ProjectCard.jsx";
@@ -18,6 +20,8 @@ export default function App() {
       <SpreadAnalysis />
       <MorningBrief />
       <PriceSpikeEvents />
+      <BatteryArbitrage />
+      <MarketRulesTracker />
 
       <section className="section about-section" id="about">
         <div className="section-header">

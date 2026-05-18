@@ -51,6 +51,26 @@ Project folder:
 
 [projects/04_price_spike_event_studies](projects/04_price_spike_event_studies/README.md)
 
+## Project 5: Battery Storage Arbitrage Simulator
+
+The fifth project models a simple battery storage arbitrage workflow using ERCOT-style real-time prices. It tracks charge and discharge intervals, state of charge, gross margin, equivalent cycles, and analyst commentary with clear caveats around mock data and simplified assumptions.
+
+The current version uses mock ERCOT-style data and is designed to become a live-price workflow after public ERCOT/GridStatus integration.
+
+Project folder:
+
+[projects/05_battery_arbitrage_simulator](projects/05_battery_arbitrage_simulator/README.md)
+
+## Project 6: ERCOT Market Rules / NPRR Tracker
+
+The sixth project creates a structured tracker for ERCOT rule changes and NPRRs. It organizes source links, status, next step, topic, priority, impact area, and analyst notes so market-rule research can support dashboard commentary and desk questions.
+
+The current version is a manually curated starter tracker and should be verified against ERCOT source pages before public rule-status claims are made.
+
+Project folder:
+
+[projects/06_ercot_market_rules_tracker](projects/06_ercot_market_rules_tracker/README.md)
+
 ## Blog and Learning Log
 
 The portfolio includes both technical development notes and ERCOT market observations. Technical posts explain how the dashboard, data pipeline, and reporting tools are built. Market notes explain what the dashboard shows and what questions a trading desk might ask next.

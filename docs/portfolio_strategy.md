@@ -13,9 +13,14 @@ I am a high school economics teacher and data science master's student building 
 1. Homepage
 2. Featured Project: ERCOT Real-Time Market Dashboard
 3. Live Dashboard
-4. Build Log + Market Notes
-5. GitHub Repo
-6. Resume / Contact
+4. DA/RT Spread Analysis
+5. Morning Market Brief
+6. Price Spike Event Studies
+7. Battery Arbitrage Simulator
+8. ERCOT Market Rules Tracker
+9. Build Log + Market Notes
+10. GitHub Repo
+11. Resume / Contact
 
 ## Writing Cadence
 
@@ -28,4 +33,3 @@ I am a high school economics teacher and data science master's student building 
 ## Interview Narrative
 
 "I built a live ERCOT dashboard, but I also documented the process. The blog shows both the technical work and the market questions the dashboard helped me ask. My goal was to build the kind of daily workflow a junior trading analyst or desk-support analyst could maintain."
-

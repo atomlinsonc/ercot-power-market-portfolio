@@ -14,6 +14,8 @@ export default function Hero() {
       <nav className="top-nav" aria-label="Primary navigation">
         <a href="#projects">Projects</a>
         <a href="#spread-analysis">Spreads</a>
+        <a href="#battery-arbitrage">Storage</a>
+        <a href="#market-rules">Rules</a>
         <a href="#blog">Blog</a>
         <a href="#roadmap">Roadmap</a>
         <a href="#contact">Contact</a>

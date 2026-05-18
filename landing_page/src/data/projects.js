@@ -46,24 +46,24 @@ export const projects = [
   },
   {
     title: "Battery Arbitrage Simulator",
-    status: "Upcoming",
+    status: "Active",
     description:
-      "Simple storage dispatch model to estimate charging, discharging, and gross margin under selected price assumptions.",
-    skills: ["Optimization", "Python", "Energy storage"],
+      "Transparent storage dispatch model that estimates charge/discharge behavior, state of charge, and gross margin from ERCOT-style prices.",
+    skills: ["Python", "Storage analytics", "Time series", "Asset optimization"],
     links: {
-      report: "#",
-      github: "https://github.com/atomlinsonc/ercot-power-market-portfolio",
+      report: "#battery-arbitrage",
+      github: "https://github.com/atomlinsonc/ercot-power-market-portfolio/tree/main/projects/05_battery_arbitrage_simulator",
     },
   },
   {
     title: "ERCOT Market Rules Tracker",
-    status: "Upcoming",
+    status: "Active",
     description:
-      "Structured tracker for ERCOT market rule changes, NPRRs, key dates, and analyst notes on possible market impact.",
-    skills: ["Research", "Documentation", "Market rules"],
+      "Source-linked NPRR watchlist for tracking rule status, priority, impact areas, and analyst notes for market commentary.",
+    skills: ["Research", "NPRR tracking", "Documentation", "Market rules"],
     links: {
-      report: "#",
-      github: "https://github.com/atomlinsonc/ercot-power-market-portfolio",
+      report: "#market-rules",
+      github: "https://github.com/atomlinsonc/ercot-power-market-portfolio/tree/main/projects/06_ercot_market_rules_tracker",
     },
   },
 ];
