@@ -1,7 +1,7 @@
 import { BookOpen, FileText, Github, LineChart } from "lucide-react";
 
 const links = [
-  { label: "View Live Dashboard", href: "#", icon: LineChart },
+  { label: "View Live Dashboard", href: "#dashboard", icon: LineChart },
   { label: "View GitHub Repo", href: "https://github.com/atomlinsonc/ercot-power-market-portfolio", icon: Github },
   { label: "Read the Blog", href: "#blog", icon: BookOpen },
   { label: "Download Resume", href: "#", icon: FileText },

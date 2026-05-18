@@ -271,6 +271,247 @@ h1 {
   font-size: 0.92rem;
 }
 
+.dashboard-section {
+  width: 100%;
+  max-width: none;
+  padding: 72px max(20px, calc((100vw - 1240px) / 2));
+  background: #101916;
+}
+
+.dashboard-shell {
+  display: grid;
+  gap: 22px;
+  color: #f8fbf9;
+}
+
+.dashboard-title-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 24px;
+  align-items: start;
+}
+
+.dashboard-title-row h2 {
+  max-width: 760px;
+  margin-bottom: 14px;
+  color: #ffffff;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 1.05;
+}
+
+.dashboard-title-row p:not(.eyebrow) {
+  max-width: 760px;
+  margin-bottom: 0;
+  color: #bac8c2;
+  line-height: 1.65;
+}
+
+.dashboard-repo-link {
+  display: inline-flex;
+  min-height: 42px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #55736d;
+  border-radius: 8px;
+  padding: 10px 14px;
+  color: #dff6f1;
+  font-weight: 800;
+}
+
+.dashboard-controls,
+.metric-grid,
+.chart-grid {
+  display: grid;
+  gap: 14px;
+}
+
+.dashboard-controls {
+  grid-template-columns: 1fr 1fr 1.4fr;
+  align-items: end;
+  border: 1px solid #29413b;
+  border-radius: 8px;
+  padding: 16px;
+  background: #17231f;
+}
+
+.dashboard-controls label {
+  display: grid;
+  gap: 8px;
+  color: #dce8e4;
+  font-size: 0.86rem;
+  font-weight: 800;
+}
+
+.dashboard-controls select,
+.dashboard-controls input[type="range"] {
+  width: 100%;
+}
+
+.dashboard-controls select {
+  min-height: 42px;
+  border: 1px solid #42615a;
+  border-radius: 8px;
+  padding: 0 12px;
+  color: #f8fbf9;
+  background: #0f1715;
+  font: inherit;
+}
+
+.dashboard-controls input[type="range"] {
+  accent-color: #f5b85f;
+}
+
+.metric-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.metric-card,
+.chart-panel,
+.spike-table-panel,
+.dashboard-summary {
+  border: 1px solid #29413b;
+  border-radius: 8px;
+  background: #f8fbf9;
+  color: var(--ink);
+}
+
+.metric-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 12px;
+  padding: 18px;
+}
+
+.metric-icon {
+  display: grid;
+  width: 36px;
+  height: 36px;
+  place-items: center;
+  border-radius: 8px;
+  color: #ffffff;
+  background: var(--teal);
+}
+
+.metric-card p,
+.metric-card span {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.metric-card strong {
+  display: block;
+  margin: 4px 0;
+  font-size: clamp(1.35rem, 2vw, 1.8rem);
+  line-height: 1.05;
+}
+
+.dashboard-summary {
+  padding: 18px 20px;
+  border-left: 5px solid #f5b85f;
+  line-height: 1.65;
+}
+
+.chart-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.chart-panel {
+  padding: 18px;
+}
+
+.chart-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: start;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.chart-header h3,
+.spike-table-panel h3 {
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+
+.chart-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.chart-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.chart-legend i {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.market-chart {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.chart-grid-line {
+  stroke: #e0e7e3;
+  stroke-width: 1;
+}
+
+.chart-tick {
+  fill: #6d7b73;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.spike-table-panel {
+  display: grid;
+  gap: 14px;
+  padding: 18px;
+}
+
+.spike-table-panel p {
+  margin: 6px 0 0;
+  color: var(--muted);
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  min-width: 780px;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+th,
+td {
+  border-bottom: 1px solid #dfe5e2;
+  padding: 11px 10px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+th {
+  color: var(--teal-dark);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
 .blog-section,
 .roadmap-section {
   width: 100%;
@@ -340,7 +581,11 @@ h1 {
   .about-section,
   .project-grid,
   .blog-grid,
-  .roadmap {
+  .roadmap,
+  .dashboard-title-row,
+  .dashboard-controls,
+  .metric-grid,
+  .chart-grid {
     grid-template-columns: 1fr;
   }
 }
@@ -360,4 +605,3 @@ h1 {
     padding: 56px 0;
   }
 }
-

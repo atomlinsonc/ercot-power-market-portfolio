@@ -6,7 +6,7 @@ export const projects = [
       "Streamlit dashboard for monitoring real-time prices, day-ahead comparisons, DA/RT spreads, load forecast error, and spike intervals.",
     skills: ["Python", "Streamlit", "pandas", "Plotly", "Market reporting"],
     links: {
-      dashboard: "#",
+      dashboard: "#dashboard",
       report: "#",
       github: "https://github.com/atomlinsonc/ercot-power-market-portfolio/tree/main/projects/01_realtime_market_dashboard",
     },

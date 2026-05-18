@@ -1,5 +1,6 @@
 import BlogPreview from "./components/BlogPreview.jsx";
 import Contact from "./components/Contact.jsx";
+import Dashboard from "./components/Dashboard.jsx";
 import Hero from "./components/Hero.jsx";
 import ProjectCard from "./components/ProjectCard.jsx";
 import Roadmap from "./components/Roadmap.jsx";
@@ -10,6 +11,7 @@ export default function App() {
   return (
     <main>
       <Hero />
+      <Dashboard />
 
       <section className="section about-section" id="about">
         <div className="section-header">
@@ -49,4 +51,3 @@ export default function App() {
     </main>
   );
 }
-
